@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+
+}
+
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+
+header{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+}
+header:hover{
+    background : linear-gradient(rgba(0, 0, 0,0.5), rgba(255, 255, 255,0));
+}
+
+header h1 {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    font-weight: bold;
+    color: white;
+}
+header nav {
+    display: flex;
+    width: 60%;
+}
+.ul {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    margin-right: 30px;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+button{
+    border-radius: 10px ;
+    border: 0px;
+    color: white;
+}
+.sign {
+    margin-left: 50px;
+    margin-right: -15px;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(89,89,89);
+}
+
+.sign:hover{
+    cursor:pointer;
+}
+
+.alibaba{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(148,182,24);
+    transition: 0.5s;
+}
+.alibaba:hover{
+    background-color: rgb(119, 149, 21);
+    cursor: pointer;
+
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(assets/pexels-pixabay-258045.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+main h3 {
+    color: white;
+    font-size: 4rem;
+    margin-left: 5rem;
+}
+.product:hover .submenu{
+    opacity: 1;
+    top: 80px;
+    transition: 1s;
+}
+.submenu{
+    position: absolute;
+    display: flex;
+    background-color: white;
+    width: 90px;
+    height: 220px;
+    opacity: 0;
+    top: 150px;
+}
+.submenu ul li {
+    color: black;
+    margin-top: 20px;
+    margin-left:10px ;
+}
+
